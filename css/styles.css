@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    max-width: auto;
+    padding: 0;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+ 
+}
+.topnavbar ul {
+  list-style: none;
+  background-color: #1d2540;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.topnavbar li {
+    display: inline-block;
+}
+.topnavbar a {
+    color: white;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+.topnavbar a:hover {
+    background-color: white;
+    color: black;
+}
+.topnavbar a.active {
+    background-color: white;
+    color: black;
+}
+.imgmainlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frontgames {
+  padding: 55px;
+  float: left;
+  width: 33,33%;
+}
+.maintextcenter {
+    position: relative; left: 330px; top: 30px;
+    font-size: 20px;
+}
+.maintextcenter2 {
+    position: relative; left: 385px; top: 85px;
+    font-size: 20px;
+}
+.pricetag1 {
+    font-weight: bold;
+    position: relative; left: 520px;
+    
+}
+.pricetag2 {
+    font-weight: bold;
+    position: relative; left: 762px; bottom: 19px;
+}
+.pricetag3 {
+    font-weight: bold;
+    position: relative; left: 1005px; bottom: 38px;
+}
