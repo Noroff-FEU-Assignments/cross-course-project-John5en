@@ -7,7 +7,9 @@ body {
   font-family: Arial;
   margin: 0;
   padding: 0;
- 
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 .topnavbar ul {
   list-style: none;
@@ -41,31 +43,153 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .frontgames {
-  padding: 55px;
+  padding: 130px;
   float: left;
-  width: 33,33%;
+  width: auto;
+
+  
+  
 }
 .maintextcenter {
-    position: relative; left: 330px; top: 30px;
+    position: relative; left: 780px; top: 30px;
     font-size: 20px;
+    color: #1d2540;
 }
 .maintextcenter2 {
-    position: relative; left: 385px; top: 85px;
+    position: relative; left: 910px; top: 160px;
     font-size: 20px;
+    color: #1d2540;
 }
 .pricetag1 {
     font-weight: bold;
-    position: relative; left: 520px;
+    position: relative; left: 970px;
     
 }
 .pricetag2 {
     font-weight: bold;
-    position: relative; left: 762px; bottom: 19px;
+    position: relative; left: 1212px; bottom: 19px;
 }
 .pricetag3 {
     font-weight: bold;
-    position: relative; left: 1005px; bottom: 38px;
+    position: relative; left: 1457px; bottom: 38px;
+}
+h1 {
+    text-align: center;
+    line-height: 200px;
+    margin-bottom: 10px;
+    color: #1d2540;
+
+}
+.searchbar {
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.allgames {
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
+   }
+   .aligngames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.gamename {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 100px;
+    font-weight: bold;
+
+}
+.gamepicture {
+    margin-left: 800px;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+    
+
+}
+.gamedesc {
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+.cartbutton {
+    color: white;
+    background-color: #E6A200;
+    border: 2px solid;
+    height: 40px;
+    width:100px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+.cartbutton:hover {
+    color: #E6A200;
+    background-color: white;
+
+}
+
+.aboutp {
+    color: #1d2540;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-size: 20px;
+}
+.mycartpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+.cartdesc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.infofill {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.paybutton {
+    color: white;
+    background-color: #E6A200;
+    border: 2px solid;
+    height: 40px;
+    width:100px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paybutton:hover {
+    background-color: white;
+    color: #E6A200;
+
+}
+.checkoutp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #1d2540;
+    font-size: 20px;
 }
