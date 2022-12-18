@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="topnavbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a class="active" href="mycart.html">My Cart</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <h1>In your cart</h1>
+    <div class="cartContainer">
+      <div class="mycartpic">
+        <a href="productdetails.html"
+          ><img src="/images/game hub forge legend.png" alt="Forge Legend"
+        /></a>
+      </div>
+      <p class="cartdesc">x1</p>
+      <p class="cartdesc"><b>59.99$</b></p>
+      <br />
+      <p class="cartdesc">Please provide us with the following information</p>
+      <br />
+      <form id="cartForm" action="/checkout.html" method="post">
+        <div>
+          <label>
+            Name:
+            <input
+              name="formName"
+              id="formName"
+              placeholder="Full name"
+              class="form__input"
+            />
+            <div class="errorCartForm" id="errorName">
+              Please enter your name
+            </div>
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label>
+            Address:
+            <input
+              name="formAddress"
+              id="formAddress"
+              placeholder="Your address"
+              class="form__input"
+            />
+            <div class="errorCartForm" id="errorAddress">
+              Please enter your address
+            </div>
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label>
+            Email:
+            <input
+              name="formEmail"
+              id="formEmail"
+              placeholder="your@email.com"
+              class="form__input"
+            />
+            <div class="errorCartForm" id="errorEmail">
+              Please enter a valid email
+            </div>
+          </label>
+        </div>
+        <br />
+
+        <div>
+          <label>
+            Credit card number:
+            <input
+              name="formCard"
+              id="formCard"
+              placeholder="xxxx-xxxx-xxxx-xxxx"
+              class="form__input"
+            />
+            <div class="errorCartForm" id="errorCard">Please enter a valid credit card number</div>
+          </label>
+        </div>
+
+        <br />
+      
+       <a href="checkout.html"><button class="paybutton" id="paybutton">Pay Now</button></a>
+    </div>
+  </form>
+    <div class="footer">
+      <p>GameHub ©</p>
+    </div>
+    <script src="js/mycart.js"></script>
+  </body>
+</html>
